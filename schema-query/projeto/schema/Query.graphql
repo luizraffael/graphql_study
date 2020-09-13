@@ -1,0 +1,11 @@
+#pontos de entrada api!
+    type Query {
+        ola: String!
+        horaAtual: Date!
+        usuarioLogado: Usuario
+        produtoEmDestaque: Produto
+        usuarios: [Usuario]
+        usuario(id: Int): Usuario
+        perfis: [Perfil]
+        perfil(id: Int): Perfil
+    }
