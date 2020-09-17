@@ -28,3 +28,10 @@ input UsuarioFilter {
     id: Int
     email: String
 }
+input PerfilInput {
+    perfil: Sting
+}
+
+input PerfilFilter{
+    id: Int
+}
