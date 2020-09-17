@@ -3,5 +3,5 @@ type Mutation {
 
     excluirUsuario (filter: UsuarioFilter!): Usuario
 
-    alterarUsuario (id: Int, nome: String, email: String, idade: Int): Usuario
+    alterarUsuario (filter: UsuarioFilter! dados: UsuarioInput): Usuario
 }
